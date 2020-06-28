@@ -1,49 +1,12 @@
 import React, { Component } from 'react';
 
-class Home extends React.Component {
+class Home extends Component {
   render() {
     return (
       <div>
          
 
-<header>
-	<div className="container">
-		<div className="header d-lg-flex justify-content-between align-items-center">
-			<div className="header-agile">
-				<h1>
-					<a className="navbar-brand logo" href="index.html">
-						<span className="fa fa-scissors" aria-hidden="true" ></span> Men spa	<span className="fa fa-user-secret" aria-hidden="true" ></span>
-					</a>
-				</h1>
-			</div>
-			<div className="nav_w3ls">
-				<nav>
-					<label for="drop" className="toggle mt-lg-0 mt-1"><span className="fa fa-bars" aria-hidden="true"></span></label>
-					<input type="checkbox" id="drop" />
-						<ul className="menu">
-							<li className="mr-lg-3 mr-2 active"><a href="index.html">Home</a></li>
-							<li className="mr-lg-3 mr-2"><a href="about.html">About </a></li>
-							<li className="mr-lg-3 mr-2 p-0">
-						
-							<label for="drop-2" className="toggle">Dropdown <span className="fa fa-angle-down" aria-hidden="true"></span> </label>
-							<a href="#">Dropdown <span className="fa fa-angle-down" aria-hidden="true"></span></a>
-							<input type="checkbox" id="drop-2"/>
-							<ul className="inner-dropdown">
-								<li><a href="services.html">What We Do</a></li>
-								<li><a href="single.html">See more</a></li>
-							</ul>
-							</li>
-							<li className="mr-lg-3 mr-2"><a href="gallery.html">Gallery</a></li>
-							<li className="mr-lg-3 mr-2"><a href="contact.html">Contact Us</a></li>
-							
 
-						</ul>
-				</nav>
-			</div>
-
-		</div>
-	</div>
-</header>
 
 <div className="banner_w3lspvt" id="home">
 	<div className="csslider infinity" id="slider1">
@@ -124,7 +87,7 @@ class Home extends React.Component {
             <div className="info-w3pvt-mid text-center px-lg-5">
 
                 <div className="title-desc text-center px-lg-5">
-					<img src="images/about1.png" alt="news image" className="img-fluid" />
+					<img src="assets/images/about1.png" alt="news image" className="img-fluid" />
                     <p className="px-lg-5">Praesent ullamcorper dui turpis.At vero eos et accusam et justo duo dolores et ea rebum.Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.
                         Praesent ullamcorper dui turpis.At vero eos et accusam et justo duo dolores et ea rebum.Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
                     <a className="btn mt-lg-4 mt-3 read scroll" href="#services" role="button">Learn More</a>
@@ -141,7 +104,7 @@ class Home extends React.Component {
             <div className="row ab-info">
                 <div className="col-md-6 ab-content ab-content1">
                     <div className="ab-content-inner">
-                        <a href="single.html"><img src="images/services2.jpg" alt="news image" className="img-fluid" /></a>
+                        <a href="single.html"><img src="assets/images/services2.jpg" alt="news image" className="img-fluid" /></a>
                         <div className="ab-info-con">
                             <h4> Trim your Hair</h4>
                             <a href="single.html" className="read-more two btn m-0 px-3"><span className="fa fa-arrow-circle-o-right"> </span></a>
@@ -150,7 +113,7 @@ class Home extends React.Component {
                 </div>
                 <div className="col-md-6 ab-content ab-content1">
                     <div className="ab-content-inner">
-                        <a href="single.html"><img src="images/services1.jpg" alt="news image" className="img-fluid" /></a>
+                        <a href="single.html"><img src="assets/images/services1.jpg" alt="news image" className="img-fluid" /></a>
                         <div className="ab-info-con">
                             <h4>Trim your Beard</h4>
                             <a href="single.html" className="read-more two btn m-0 px-3"><span className="fa fa-arrow-circle-o-right"> </span></a>
@@ -161,7 +124,7 @@ class Home extends React.Component {
             <div className="row ab-info second mt-lg-4">
                 <div className="col-md-3 ab-content">
                     <div className="ab-content-inner">
-                        <a href="single.html"><img src="images/ser3.jpg" alt="news image" className="img-fluid" /></a>
+                        <a href="single.html"><img src="assets/images/ser3.jpg" alt="news image" className="img-fluid" /></a>
                         <div className="ab-info-con">
                             <h4>colouring</h4>
                             <a href="single.html" className="read-more two btn m-0 px-3"><span className="fa fa-arrow-circle-o-right"> </span></a>
@@ -170,7 +133,7 @@ class Home extends React.Component {
                 </div>
                 <div className="col-md-3 ab-content">
                     <div className="ab-content-inner">
-                        <a href="single.html"><img src="images/ser4.jpg" alt="news image" className="img-fluid" /></a>
+                        <a href="single.html"><img src="assets/images/ser4.jpg" alt="news image" className="img-fluid" /></a>
                         <div className="ab-info-con">
                             <h4>Bathing</h4>
                             <a href="single.html" className="read-more two btn m-0 px-3"><span className="fa fa-arrow-circle-o-right"> </span></a>
@@ -179,7 +142,7 @@ class Home extends React.Component {
                 </div>
                 <div className="col-md-3 ab-content">
                     <div className="ab-content-inner">
-                        <a href="single.html"><img src="images/ser5.jpg" alt="news image" className="img-fluid" /></a>
+                        <a href="single.html"><img src="assets/images/ser5.jpg" alt="news image" className="img-fluid" /></a>
                         <div className="ab-info-con">
                             <h4>drying</h4>
                             <a href="single.html" className="read-more two btn m-0 px-3"><span className="fa fa-arrow-circle-o-right"> </span></a>
@@ -188,7 +151,7 @@ class Home extends React.Component {
                 </div>
                 <div className="col-md-3 ab-content">
                     <div className="ab-content-inner">
-                        <a href="single.html"><img src="images/ser6.jpg" alt="news image" className="img-fluid" /></a>
+                        <a href="single.html"><img src="assets/images/ser6.jpg" alt="news image" className="img-fluid" /></a>
                         <div className="ab-info-con">
                             <h4>Creams</h4>
                             <a href="single.html" className="read-more two btn m-0 px-3"><span className="fa fa-arrow-circle-o-right"> </span></a>
@@ -392,7 +355,7 @@ class Home extends React.Component {
                         <h3 className="mt-md-4 mt-3"> Abraham Smith</h3>
 
                         <div className="test-img text-center mb-3">
-                            <img src="images/test1.jpg" className="img-fluid" alt="user-image" />
+                            <img src="assets/images/test1.jpg" className="img-fluid" alt="user-image" />
                         </div>
                         <div className="mobl-footer test-soc text-center">
                             <ul className="list-unstyled">
@@ -417,7 +380,7 @@ class Home extends React.Component {
                         <p>Lorem Ipsum has been the industry's standard since the 1500s. Praesent ullamcorper dui turpis.</p>
                         <h3 className="mt-md-4 mt-3"> Mariana Noe</h3>
                         <div className="test-img text-center mb-3">
-                            <img src="images/test2.jpg" className="img-fluid" alt="user-image" />
+                            <img src="assets/images/test2.jpg" className="img-fluid" alt="user-image" />
                         </div>
                         <div className="mobl-footer test-soc text-center">
                             <ul className="list-unstyled">
@@ -443,7 +406,7 @@ class Home extends React.Component {
                         <h3 className="mt-md-4 mt-3">Nebula Nairobi</h3>
 
                         <div className="test-img text-center mb-3">
-                            <img src="images/test3.jpg" className="img-fluid" alt="user-image" />
+                            <img src="assets/images/test3.jpg" className="img-fluid" alt="user-image" />
                         </div>
                         <div className="mobl-footer test-soc text-center">
                             <ul className="list-unstyled">
@@ -490,96 +453,7 @@ class Home extends React.Component {
 		</div>
 	</div>
 </section>
-{/* <!-- //subscribe -->
-<!-- footer --> */}
-    <footer className="footer-content">
-        <div className="layer footer">
-            <div className="container-fluid">
-                <div className="row footer-top-inner-w3ls">
-                    <div className="col-lg-4 col-md-6 footer-top ">
-                        <h2>
-                            <a href="index.html">Men spa</a>
-                        </h2>
-                        <p className="my-3">Donec consequat sam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus</p>
-                        <p>
-                            Id quod possimusapien ut leo cursus rhoncus. Nullam dui mi, vulputate ac metus at, semper varius orci.
-                        </p>
-                    </div>
-                    <div className="col-lg-4 col-md-6 mt-md-0 mt-5">
-                        <div className="footer-w3pvt">
-                            <h3 className="mb-3 w3pvt_title">Opening Hours</h3>
-                            <hr />
-                            <ul className="list-info-w3pvt last-w3ls-contact mt-lg-4">
-                                <li>
-                                    <p> Monday - Friday 08.00 am - 10.00 pm</p>
 
-                                </li>
-                                <li className="my-2">
-                                    <p>Saturday 08.00 am - 10.00 pm</p>
-
-                                </li>
-                                <li className="my-2">
-                                    <p>Sunday 08.00 am - 10.00 pm</p>
-
-                                </li>
-
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 mt-lg-0 mt-5">
-                        <div className="footer-w3pvt">
-                            <h3 className="mb-3 w3pvt_title">Contact Us</h3>
-                            <hr />
-                            <div className="last-w3ls-contact">
-                                <p>
-                                    <a href="mailto:example@email.com">info@example.com</a>
-                                </p>
-                            </div>
-                            <div className="last-w3ls-contact my-2">
-                                <p>+ 456 123 7890</p>
-                            </div>
-                            <div className="last-w3ls-contact">
-                                <p>+ 90 nsequursu dsdesdc,
-                                    <br />xxx Honey State 049436.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <p className="copy-right-grids text-li text-center my-sm-4 my-4">© 2019 Men spa. All Rights Reserved | Design by
-                    <a href="http://w3layouts.com/"> W3layouts </a>
-                </p>
-                <div className="w3ls-footer text-center mt-4">
-                    <ul className="list-unstyled w3ls-icons">
-                        <li>
-                            <a href="#">
-							<span className="fa fa-facebook-f"></span>
-						</a>
-                        </li>
-                        <li>
-                            <a href="#">
-							<span className="fa fa-twitter"></span>
-						</a>
-                        </li>
-                        <li>
-                            <a href="#">
-							<span className="fa fa-dribbble"></span>
-						</a>
-                        </li>
-                        <li>
-                            <a href="#">
-							<span className="fa fa-vk"></span>
-						</a>
-                        </li>
-                    </ul>
-                </div>
-                <div className="move-top text-right"><a href="#home" className="move-top"> <span className="fa fa-angle-up  mb-3" aria-hidden="true"></span></a></div>
-            </div>
-           
-        </div>
-    </footer>
    </div>
    
     
