@@ -22,7 +22,7 @@ function App() {
           <Route exact path='/service' component={Services} />
           <Route exact path='/single' component={Single} />
           <Route exact path='/gallery' component={Gallery} />
-          <Route exact path='/contat' component={Contact} />
+          <Route exact path='/contact' component={Contact} />
         </Switch>
 
         <Footer />
